@@ -1,1 +1,1 @@
-# my-SEPA22-projs
+# my-SEPA22-introductory-projs
