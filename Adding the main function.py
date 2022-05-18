@@ -8,7 +8,6 @@ def searchName():
         if s.startswith(user_input):
             names_input.append(s)
     print(names_input)
-searchName()
 
 def searchAge():
     inline = open("names.txt", "r")
@@ -18,8 +17,7 @@ def searchAge():
         if user_input in s:
             print(s)
 
-searchAge()
-
+            
 if __name__=='__main__':
     
     pick = int(input("enter 1 to search for name or enter 2 to search for age: "))
